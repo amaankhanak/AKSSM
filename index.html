@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>AKSSM - Clean India</title>
+  </head>
+  <body>
+    <!-- BANNER -->
+
+    <section class="header">
+      <nav class="navbar">
+        <a href="#" id="HOME"><img src="/logo.png" alt="AKSSM" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#HOME">HOME</a></li>
+            <li><a href="#aboutus">About Us</a></li>
+            <li><a href="#bin">3 Bin Policy</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>AKSSM Clean India Group</h1>
+        <p>
+          <b><u>CLEAN INDIA, GREEN INDIA, HEALTHY INDIA</u></b>
+        </p>
+        <a
+          href="https://www.instagram.com/akssm_cleanindia/"
+          target="_blank"
+          class="hero-btn"
+          >Visit our <i class="fa fa-instagram"></i> to know more</a
+        >
+      </div>
+    </section>
+
+    <section class="footer" id="aboutus" data-aos="fade-down">
+      <h4>About Us</h4>
+      <p>
+        A group of individuals, working towards the
+        <u>THREE COLOURED BIN</u> policy to be accepted throughout INDIA.<br />A
+        better way of segregation of wates in our life.<br /><br /><b
+          >Never underestimate the fact that a small group of motivated
+          individuals can bring a change in the world.</b
+        >
+        <br /><br />AKSSM Clean India Group, VIT BHOPAL
+      </p>
+    </section>
+
+    <section class="callToAct">
+      <div class="parallax">
+        <div class="call-content">
+          <h1 class="call-title">
+            Think Clean and Use Dustbin <br />Cleanliness Is Half The Faith.
+          </h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- Info -->
+
+    <section class="info" id="bin" data-aos="fade-up">
+      <h1>Why India needs Three Coloured Dustbins?</h1>
+      <p>
+        There is a pressing need to educate people on how to separate domestic
+        garbage.<br />
+        It needs to be told that a fused bulb and leftover food cannot be thrown
+        in the same bin. <br />Also, it’s equally important to separate wet
+        waste from dry filth. We all need to take responsibility<br />
+        for our own waste and recycle as much as we possibly can.
+      </p>
+    </section>
+
+    <section class="about-us">
+      <div class="row-1" data-aos="fade-right">
+        <div class="about-col">
+          <h1>Green Bin</h1>
+          <p>
+            The green coloured bin is used to dump biodegradable waste. This bin
+            could be used to dispose off wet/organic material including cooked
+            food/leftover food, vegetable/fruit peels, egg shell, rotten eggs,
+            chicken/fish bones, tea bags/coffee grinds, coconut shells and
+            garden waste including fallen leaves/twigs or the puja
+            flowers/garlands will all go into the green bin.
+          </p>
+        </div>
+        <div class="about-col">
+          <img src="/greenbin.jpg" alt="Green Bin" />
+        </div>
+      </div>
+      <div class="row-2" data-aos="fade-left">
+        <div class="about-col">
+          <h1>Blue Bin</h1>
+          <p>
+            The blue coloured bin is used for segregating dry or recyclable left
+            over. This category includes waste like plastic covers, bottles,
+            boxes, cups, toffee wrappers, soap or chocolate wrapper and paper
+            waste including magazines, newspapers, tetra packs, cardboard
+            cartons, pizza boxes or paper cups/plates will have to be thrown
+            into the white bin. Metallic items like tins/cans foil paper and
+            containers and even the dry waste including cosmetics, hair,
+            rubber/thermocol (polystyrene), old mops/dusters/sponges.
+          </p>
+        </div>
+        <div class="about-col">
+          <img src="/bluebin.jpg" alt="Blue Bin" />
+        </div>
+      </div>
+      <div class="row-3" data-aos="fade-right">
+        <div class="about-col">
+          <h1>Black Bin</h1>
+          <p>
+            Black bin, make up for the third category, which is used for
+            domestic hazardous waste like sanitary napkins, diapers, blades,
+            bandages, CFL, tube light, printer cartridges, broken thermometer,
+            batteries, button cells, expired medicine etc.
+          </p>
+        </div>
+        <div class="about-col">
+          <img src="/blackbin.png" alt="Black Bin" />
+        </div>
+      </div>
+    </section>
+
+    <div class="contact" data-aos="fade-down">
+      <section class="cta" id="contact">
+        <h1>
+          You Too Can Join Your Hands With Us In Order To Spread Awareness
+        </h1>
+        <a href="#" class="hero-btn">CONTACT US</a>
+      </section>
+    </div>
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-300px";
+      }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 200,
+        duration: 1000,
+      });
+    </script>
+  </body>
+</html>
